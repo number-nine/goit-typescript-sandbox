@@ -11,3 +11,9 @@ type User = {
 
 
 
+type a = [1, 2, 3]
+
+type b = keyof a;
+
+// console.log(b.toString());
+
